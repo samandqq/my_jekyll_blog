@@ -6,7 +6,7 @@ updates:
       # Ignore updates to packages that start with 'aws'
       # Wildcards match zero or more arbitrary characters
       - dependency-name: "minimist"
-        versions: [ "0.x" , "0.x.x", "1.2.6", "0.2.1" ]
+        versions: [ "0.x" , "0.x.x", "1.2.6", "0.2.1", "0.0.10" ]
       # Ignore some updates to the 'express' package
 #      - dependency-name: "express"
 #        # Ignore only new versions for 4.x and 5.x
