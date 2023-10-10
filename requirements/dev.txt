@@ -1,0 +1,19 @@
+Django==4.1.10
+djangorestframework==3.13.1
+cidrize==2.0.0
+gunicorn==20.1.0
+cryptography==41.0.4
+paramiko==2.11.0
+lxml==4.9.1
+mock==4.0.3
+gevent==23.9.1
+ipaddress==1.0.23
+xmltopy==1.1.18
+redis==4.4.4
+pika==1.3.0
+APScheduler==3.9.1
+requests==2.31.0
+unittest-xml-reporting==3.2.0
+
+# install logic in nacos-extension sub project
+nacos-sdk-python==0.1.6

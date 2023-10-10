@@ -1,0 +1,11 @@
+pip install django-upgrade -i  https://pypi.tuna.tsinghua.edu.cn/simple
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting django-upgrade
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0b/de/dfa370a30821ffe97ded97b70e207bfdcbf24702908d02482390d78af5f7/django_upgrade-1.4.0-py3-none-any.whl (33 kB)
+Collecting tokenize-rt>=4.1.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2f/e2/654a25ad594df2eb07f76e405f6f261d8fa9b5c06eb1e78549a086245455/tokenize_rt-4.2.1-py2.py3-none-any.whl (6.1 kB)
+Installing collected packages: tokenize-rt, django-upgrade
+Successfully installed django-upgrade-1.4.0 tokenize-rt-4.2.1
+
+以上2个不需要的，为了升级代码用的
+django-upgrade --target-version 4.0 apps_new\route_entries\urls.py
